@@ -1,0 +1,49 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotionSharp.Example.Mac", "MotionSharp.Example.Mac\MotionSharp.Example.Mac.csproj", "{9801E73D-9359-4645-A562-4A11CEDC1312}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{4E41A384-B386-4671-90C9-8237C070D1AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGraphics", "external\NGraphics\NGraphics\NGraphics.csproj", "{DF54AAED-8504-44DD-A28C-DA2C3F155CEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGraphics.Mac", "external\NGraphics\Platforms\NGraphics.Mac\NGraphics.Mac.csproj", "{AB9C83C0-6DC1-4C04-A40A-677897CA22C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteForms", "external\LiteForms\LiteForms\LiteForms.csproj", "{FA473534-E236-415D-97E6-120A903EAB9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteForms.Cocoa", "external\LiteForms\LiteForms.Cocoa\LiteForms.Cocoa.csproj", "{3E0633F6-BD50-4D09-8601-A143F6CFDD44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9801E73D-9359-4645-A562-4A11CEDC1312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9801E73D-9359-4645-A562-4A11CEDC1312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9801E73D-9359-4645-A562-4A11CEDC1312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9801E73D-9359-4645-A562-4A11CEDC1312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF54AAED-8504-44DD-A28C-DA2C3F155CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF54AAED-8504-44DD-A28C-DA2C3F155CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF54AAED-8504-44DD-A28C-DA2C3F155CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF54AAED-8504-44DD-A28C-DA2C3F155CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9C83C0-6DC1-4C04-A40A-677897CA22C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9C83C0-6DC1-4C04-A40A-677897CA22C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9C83C0-6DC1-4C04-A40A-677897CA22C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9C83C0-6DC1-4C04-A40A-677897CA22C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA473534-E236-415D-97E6-120A903EAB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA473534-E236-415D-97E6-120A903EAB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA473534-E236-415D-97E6-120A903EAB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA473534-E236-415D-97E6-120A903EAB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E0633F6-BD50-4D09-8601-A143F6CFDD44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E0633F6-BD50-4D09-8601-A143F6CFDD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E0633F6-BD50-4D09-8601-A143F6CFDD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E0633F6-BD50-4D09-8601-A143F6CFDD44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF54AAED-8504-44DD-A28C-DA2C3F155CEB} = {4E41A384-B386-4671-90C9-8237C070D1AE}
+		{AB9C83C0-6DC1-4C04-A40A-677897CA22C8} = {4E41A384-B386-4671-90C9-8237C070D1AE}
+		{FA473534-E236-415D-97E6-120A903EAB9C} = {4E41A384-B386-4671-90C9-8237C070D1AE}
+		{3E0633F6-BD50-4D09-8601-A143F6CFDD44} = {4E41A384-B386-4671-90C9-8237C070D1AE}
+	EndGlobalSection
+EndGlobal
