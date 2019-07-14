@@ -1,3 +1,6 @@
 [submodule "external/motion"]
 	path = external/motion
 	url = https://github.com/framer/motion
+[submodule "external/NGraphics"]
+	path = external/NGraphics
+	url = https://github.com/netonjm/NGraphics
