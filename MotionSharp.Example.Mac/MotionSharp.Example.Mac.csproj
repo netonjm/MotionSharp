@@ -85,5 +85,17 @@
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\external\NGraphics\NGraphics\NGraphics.csproj">
+      <Project>{DF54AAED-8504-44DD-A28C-DA2C3F155CEB}</Project>
+      <Name>NGraphics</Name>
+      <ReferenceSourceTarget></ReferenceSourceTarget>
+    </ProjectReference>
+    <ProjectReference Include="..\external\NGraphics\Platforms\NGraphics.Mac\NGraphics.Mac.csproj">
+      <Project>{AB9C83C0-6DC1-4C04-A40A-677897CA22C8}</Project>
+      <Name>NGraphics.Mac</Name>
+      <ReferenceSourceTarget></ReferenceSourceTarget>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
 </Project>
