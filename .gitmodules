@@ -4,3 +4,6 @@
 [submodule "external/NGraphics"]
 	path = external/NGraphics
 	url = https://github.com/netonjm/NGraphics
+[submodule "external/FigmaSharp"]
+	path = external/FigmaSharp
+	url = https://github.com/netonjm/FigmaSharp
