@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGraphics", "external\NGrap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGraphics.Mac", "external\NGraphics\Platforms\NGraphics.Mac\NGraphics.Mac.csproj", "{AB9C83C0-6DC1-4C04-A40A-677897CA22C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigmaSharp", "external\FigmaSharp\FigmaSharp\FigmaSharp.csproj", "{96B3DDF7-F5BB-4E09-8D14-A154F4607A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigmaSharp.Cocoa", "external\FigmaSharp\FigmaSharp.Cocoa\FigmaSharp.Cocoa.csproj", "{C16867FC-93FC-4E4C-B4DF-6F40D9615E01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,19 @@ Global
 		{AB9C83C0-6DC1-4C04-A40A-677897CA22C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB9C83C0-6DC1-4C04-A40A-677897CA22C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB9C83C0-6DC1-4C04-A40A-677897CA22C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B3DDF7-F5BB-4E09-8D14-A154F4607A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B3DDF7-F5BB-4E09-8D14-A154F4607A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B3DDF7-F5BB-4E09-8D14-A154F4607A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B3DDF7-F5BB-4E09-8D14-A154F4607A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16867FC-93FC-4E4C-B4DF-6F40D9615E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16867FC-93FC-4E4C-B4DF-6F40D9615E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16867FC-93FC-4E4C-B4DF-6F40D9615E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16867FC-93FC-4E4C-B4DF-6F40D9615E01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DF54AAED-8504-44DD-A28C-DA2C3F155CEB} = {4E41A384-B386-4671-90C9-8237C070D1AE}
 		{AB9C83C0-6DC1-4C04-A40A-677897CA22C8} = {4E41A384-B386-4671-90C9-8237C070D1AE}
+		{96B3DDF7-F5BB-4E09-8D14-A154F4607A67} = {4E41A384-B386-4671-90C9-8237C070D1AE}
+		{C16867FC-93FC-4E4C-B4DF-6F40D9615E01} = {4E41A384-B386-4671-90C9-8237C070D1AE}
 	EndGlobalSection
 EndGlobal

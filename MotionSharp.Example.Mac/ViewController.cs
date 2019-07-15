@@ -1,11 +1,19 @@
 ﻿using System;
 
 using AppKit;
+using FigmaSharp.Cocoa;
 using Foundation;
 using NGraphics;
 
 namespace MotionSharp.Example.Mac
 {
+    public class ShapeView : ImageViewWrapper
+    {
+        public ShapeView (NSImageView imageView) : base(imageView)
+        {
+        }
+    }
+
     public partial class ViewController : NSViewController
     {
         public ViewController(IntPtr handle) : base(handle)
