@@ -53,8 +53,6 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.Mac" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
-    <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -102,12 +100,10 @@
     <ProjectReference Include="..\external\FigmaSharp\FigmaSharp\FigmaSharp.csproj">
       <Project>{96B3DDF7-F5BB-4E09-8D14-A154F4607A67}</Project>
       <Name>FigmaSharp</Name>
-      <ReferenceSourceTarget></ReferenceSourceTarget>
     </ProjectReference>
     <ProjectReference Include="..\external\FigmaSharp\FigmaSharp.Cocoa\FigmaSharp.Cocoa.csproj">
       <Project>{C16867FC-93FC-4E4C-B4DF-6F40D9615E01}</Project>
       <Name>FigmaSharp.Cocoa</Name>
-      <ReferenceSourceTarget></ReferenceSourceTarget>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
