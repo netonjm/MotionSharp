@@ -1,6 +1,6 @@
 ﻿using NGraphics;
 
-namespace MotionSharp.Example.Mac
+namespace MotionSharp.Cocoa
 {
     public class CircleView : ShapeView
     {
